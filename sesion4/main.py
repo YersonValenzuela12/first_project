@@ -90,6 +90,7 @@ def create_new_user(post_user: UserRequest, db: Session = Depends(get_db)):
 #     return new_user.__dict__
 
 
+
 db: List[UserA] = [
     UserA(
         id=uuid4(),
